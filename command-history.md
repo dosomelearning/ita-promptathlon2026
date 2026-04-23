@@ -2082,3 +2082,147 @@ git diff -- README.md command-history.md
 ```text
 apply_patch: append README link-fix commit request and pre-commit inspection commands to command-history.md
 ```
+
+### Entry 344 - User Prompt
+
+```text
+i rearanged some file within the project - put them into work/. check it out, ack, and commit if you have no objections. check if we are breaking anything with this.
+```
+
+### Entry 345 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 346 - Executed Command
+
+```sh
+find . -maxdepth 2 -type f | sort
+```
+
+### Entry 347 - Executed Command
+
+```sh
+rg -n "codex-eca\.(html|md|pdf)|eca-propmpts-codex\.md|work/" README.md internal.md scenario.md AGENTS.md command-history.md .gitignore
+```
+
+### Entry 348 - Executed Command
+
+```sh
+git show --stat --oneline -1
+```
+
+### Entry 349 - Executed Command
+
+```sh
+git ls-files | sort
+```
+
+### Entry 350 - Executed Command
+
+```sh
+rg -n "codex-eca\.html|codex-eca\.md|eca-propmpts-codex\.md" README.md internal.md scenario.md AGENTS.md .gitignore
+```
+
+### Entry 351 - Executed Command
+
+```text
+apply_patch: append work-directory reorganization inspection prompt and commands to command-history.md
+```
+
+### Entry 352 - User Prompt
+
+```text
+here's the link for video 3: https://app.heygen.com/videos/320ad5e582254f6c81f491f04ff18b27
+```
+
+### Entry 353 - Executed Command
+
+```sh
+sed -n '55,120p' README.md
+```
+
+### Entry 354 - Executed Command
+
+```sh
+sed -n '1,220p' internal.md
+```
+
+### Entry 355 - Executed Command
+
+```sh
+tail -n 30 command-history.md
+```
+
+### Entry 356 - Executed Command
+
+```text
+apply_patch: update README.md and internal.md with the third HeyGen video link and append this turn's history entries
+```
+
+### Entry 357 - Executed Command
+
+```sh
+sed -n '55,120p' README.md
+```
+
+### Entry 358 - Executed Command
+
+```sh
+sed -n '1,220p' internal.md
+```
+
+### Entry 359 - User Prompt
+
+```text
+the state of the project doesnt reflect the real situation.
+```
+
+### Entry 360 - Executed Command
+
+```sh
+tail -n 25 README.md
+```
+
+### Entry 361 - Executed Command
+
+```sh
+tail -n 20 command-history.md
+```
+
+### Entry 362 - Executed Command
+
+```text
+apply_patch: correct README.md state-of-project wording to reflect completed video generation and current review/combination phase
+```
+
+### Entry 363 - Executed Command
+
+```sh
+tail -n 18 README.md
+```
+
+### Entry 364 - User Prompt
+
+```text
+commit the work
+```
+
+### Entry 365 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 366 - Executed Command
+
+```sh
+git diff -- README.md command-history.md
+```
+
+### Entry 367 - Executed Command
+
+```text
+apply_patch: append commit request and pre-commit inspection commands for video-3 and project-state updates
+```

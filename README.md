@@ -64,7 +64,8 @@ the master article.
   HeyGen playback link:
   [Video 2](https://app.heygen.com/videos/34eb890e3d4b4766bcd465e1d7d9545e)
 - Video 3: Lessons learned
-  Placeholder for HeyGen playback link.
+  HeyGen playback link:
+  [Video 3](https://app.heygen.com/videos/320ad5e582254f6c81f491f04ff18b27)
 
 ## The Goal
 
@@ -83,8 +84,8 @@ segments to reach the target duration.
 
 ## The State of the Project
 
-The project is now in the video-generation phase. Codex is being used to define
-the scenario and supporting content for three AI-generated video segments that
-will later be combined into one presentation, and the first two videos have
-been generated with HeyGen and are available through HeyGen-hosted playback
-links.
+The three planned video segments have been generated with HeyGen and are
+available through HeyGen-hosted playback links. The current state of the
+project is no longer prompt design for generation itself, but review,
+documentation, and preparation for combining the three segments into one final
+presentation.
