@@ -1674,3 +1674,51 @@ git push -u origin master
 ```text
 apply_patch: append staging, commit, and push-attempt commands for GitHub publishing setup
 ```
+
+### Entry 276 - Executed Command
+
+```sh
+git add command-history.md
+```
+
+### Entry 277 - Executed Command
+
+```sh
+git commit -m "Record GitHub publishing setup work" -m "- Log remote configuration, staging, commit, and push attempts in command history" -m "- Keep local IDE state out of the published changeset"
+```
+
+### Entry 278 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 279 - Executed Command
+
+```text
+apply_patch: append final GitHub setup commit and status-check commands to command-history.md
+```
+
+### Entry 280 - User Prompt
+
+```text
+there are still uncommited files in repo. check it out. ntw, yo uare not allowed to git push, just commit.
+```
+
+### Entry 281 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 282 - Executed Command
+
+```sh
+git diff -- command-history.md .idea/misc.xml
+```
+
+### Entry 283 - Executed Command
+
+```text
+apply_patch: append uncommitted-files inspection prompt and commands to command-history.md
+```
