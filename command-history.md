@@ -1908,3 +1908,99 @@ git diff -- README.md internal.md command-history.md
 ```text
 apply_patch: append commit request prompt and pre-commit inspection commands to command-history.md
 ```
+
+### Entry 315 - Executed Command
+
+```sh
+git add README.md internal.md command-history.md
+```
+
+### Entry 316 - Executed Command
+
+```sh
+git commit -m "Update video-sharing documentation" -m "- Add planned video output placeholders and register the first HeyGen playback link" -m "- Update project state to active video generation and record the switch away from S3 video sharing"
+```
+
+### Entry 317 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 318 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 319 - Executed Command
+
+```text
+apply_patch: append final commit and post-commit status-check commands for video-sharing documentation update
+```
+
+### Entry 320 - User Prompt
+
+```text
+here is the link for second video: https://app.heygen.com/videos/34eb890e3d4b4766bcd465e1d7d9545e
+```
+
+### Entry 321 - Executed Command
+
+```sh
+sed -n '45,120p' README.md
+```
+
+### Entry 322 - Executed Command
+
+```sh
+sed -n '1,220p' internal.md
+```
+
+### Entry 323 - Executed Command
+
+```sh
+tail -n 30 command-history.md
+```
+
+### Entry 324 - Executed Command
+
+```text
+apply_patch: update README.md and internal.md with the second HeyGen video link and append this turn's history entries
+```
+
+### Entry 325 - Executed Command
+
+```sh
+sed -n '55,120p' README.md
+```
+
+### Entry 326 - Executed Command
+
+```sh
+sed -n '1,220p' internal.md
+```
+
+### Entry 327 - User Prompt
+
+```text
+commit the work.
+```
+
+### Entry 328 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 329 - Executed Command
+
+```sh
+git diff -- README.md internal.md command-history.md
+```
+
+### Entry 330 - Executed Command
+
+```text
+apply_patch: append second-video-link commit request and pre-commit inspection commands to command-history.md
+```

@@ -23,3 +23,5 @@ the presentation itself.
 - Video sharing will use HeyGen-hosted playback links instead.
 - First video link:
   `https://app.heygen.com/videos/5d23531a251c41719184ced6b1c1d097`
+- Second video link:
+  `https://app.heygen.com/videos/34eb890e3d4b4766bcd465e1d7d9545e`
