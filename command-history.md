@@ -1764,3 +1764,147 @@ well then keep tracking. i dont wanna see it in git status output.
 ```text
 apply_patch: append tracked-misc.xml follow-up prompt to command-history.md
 ```
+
+### Entry 291 - Executed Command
+
+```sh
+git add .idea/misc.xml command-history.md
+```
+
+### Entry 292 - Executed Command
+
+```sh
+git commit -m "Record IDE config update" -m "- Commit the tracked .idea/misc.xml change so it no longer appears in git status" -m "- Update command history for the tracked-file cleanup decision"
+```
+
+### Entry 293 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 294 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 295 - Executed Command
+
+```text
+apply_patch: append IDE-config cleanup commit and final clean-status check to command-history.md
+```
+
+### Entry 296 - User Prompt
+
+```text
+we are waiting for heygen to render the first video. once ready, im gonna upload it to the s3 bucket. you can prepare placeholders for all three videos in our readme file now.
+```
+
+### Entry 297 - Executed Command
+
+```sh
+sed -n '1,260p' README.md
+```
+
+### Entry 298 - Executed Command
+
+```sh
+tail -n 40 command-history.md
+```
+
+### Entry 299 - Executed Command
+
+```text
+apply_patch: add Planned Video Outputs placeholders to README.md and append this turn's history entries
+```
+
+### Entry 300 - Executed Command
+
+```sh
+sed -n '35,110p' README.md
+```
+
+### Entry 301 - User Prompt
+
+```text
+update the state of the project session to generating the videos.
+```
+
+### Entry 302 - Executed Command
+
+```text
+apply_patch: update README.md state-of-project section to reflect active video generation and append this prompt to command-history.md
+```
+
+### Entry 303 - Executed Command
+
+```sh
+tail -n 20 README.md
+```
+
+### Entry 304 - User Prompt
+
+```text
+update: we will not need s3 for sharing videos, heygen provides links for playingthe videos on their site, we gonna use those. here is the first one: https://app.heygen.com/videos/5d23531a251c41719184ced6b1c1d097
+```
+
+### Entry 305 - Executed Command
+
+```sh
+sed -n '1,240p' README.md
+```
+
+### Entry 306 - Executed Command
+
+```sh
+sed -n '1,220p' internal.md
+```
+
+### Entry 307 - Executed Command
+
+```sh
+tail -n 40 command-history.md
+```
+
+### Entry 308 - Executed Command
+
+```text
+apply_patch: update README.md and internal.md to use HeyGen-hosted video links instead of S3 and append this turn's history entries
+```
+
+### Entry 309 - Executed Command
+
+```sh
+sed -n '45,120p' README.md
+```
+
+### Entry 310 - Executed Command
+
+```sh
+sed -n '1,220p' internal.md
+```
+
+### Entry 311 - User Prompt
+
+```text
+comit the work.
+```
+
+### Entry 312 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 313 - Executed Command
+
+```sh
+git diff -- README.md internal.md command-history.md
+```
+
+### Entry 314 - Executed Command
+
+```text
+apply_patch: append commit request prompt and pre-commit inspection commands to command-history.md
+```

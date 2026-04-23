@@ -55,6 +55,16 @@ the master article.
   [Edge computing architectures.docx](</home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/Edge computing architectures.docx>),
   [article.pdf](/home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/article.pdf)
 
+## Planned Video Outputs
+
+- Video 1: Project introduction
+  HeyGen playback link:
+  [Video 1](https://app.heygen.com/videos/5d23531a251c41719184ced6b1c1d097)
+- Video 2: Master article presentation
+  Placeholder for HeyGen playback link.
+- Video 3: Lessons learned
+  Placeholder for HeyGen playback link.
+
 ## The Goal
 
 The current goal of the project is to create an approximately 10-minute video
@@ -72,6 +82,7 @@ segments to reach the target duration.
 
 ## The State of the Project
 
-The project is now in its next phase. Codex is being used to help create a
-scenario for an AI-generated video presentation in which a lifelike presenter
-will explain the topic based on the master article.
+The project is now in the video-generation phase. Codex is being used to define
+the scenario and supporting content for three AI-generated video segments that
+will later be combined into one presentation, and the first video has been
+generated with HeyGen and is available through a HeyGen-hosted playback link.

@@ -17,6 +17,9 @@ the presentation itself.
   `https://ita-promptathlon2026.s3.eu-central-1.amazonaws.com/empty-test-file.txt`
 - Verified result on April 23, 2026: `HTTP/1.1 200 OK`
 
-## Intended Use
+## Video Sharing Update
 
-- This bucket will be used to store generated video outputs for the project.
+- The project will not use S3 for sharing generated videos.
+- Video sharing will use HeyGen-hosted playback links instead.
+- First video link:
+  `https://app.heygen.com/videos/5d23531a251c41719184ced6b1c1d097`
