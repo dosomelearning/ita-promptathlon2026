@@ -2004,3 +2004,81 @@ git diff -- README.md internal.md command-history.md
 ```text
 apply_patch: append second-video-link commit request and pre-commit inspection commands to command-history.md
 ```
+
+### Entry 331 - Executed Command
+
+```sh
+git add README.md internal.md command-history.md
+```
+
+### Entry 332 - Executed Command
+
+```sh
+git commit -m "Register second HeyGen video link" -m "- Add the second generated video link to the README planned outputs section" -m "- Update internal notes and project state to reflect that two video segments are now available"
+```
+
+### Entry 333 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 334 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 335 - Executed Command
+
+```text
+apply_patch: append final commit and post-commit status-check commands for second-video-link update
+```
+
+### Entry 336 - User Prompt
+
+```text
+what were you thinking when puttin absolute paths to links in readme???!!!
+```
+
+### Entry 337 - Executed Command
+
+```sh
+sed -n '1,180p' README.md
+```
+
+### Entry 338 - Executed Command
+
+```sh
+tail -n 30 command-history.md
+```
+
+### Entry 339 - Executed Command
+
+```text
+apply_patch: replace absolute local paths in README.md with repo-relative links and append this turn's history entries
+```
+
+### Entry 340 - User Prompt
+
+```text
+commit it.
+```
+
+### Entry 341 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 342 - Executed Command
+
+```sh
+git diff -- README.md command-history.md
+```
+
+### Entry 343 - Executed Command
+
+```text
+apply_patch: append README link-fix commit request and pre-commit inspection commands to command-history.md
+```

@@ -22,7 +22,7 @@ The working rules for the article phase were strict:
 
 Using those rules, the team produced three initial source documents. Those
 documents were then combined with Claude into the current master document:
-[master_article.pdf](/home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/master_article.pdf).
+[master_article.pdf](artifacts/master_article.pdf).
 
 ## Strategy
 
@@ -50,10 +50,10 @@ the master article.
 
 ## Produced Artifacts
 
-- Final master artifact: [master_article.pdf](/home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/master_article.pdf)
-- Constituent source artifacts: [codex-eca.pdf](/home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/codex-eca.pdf),
-  [Edge computing architectures.docx](</home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/Edge computing architectures.docx>),
-  [article.pdf](/home/raven/data/doc/privat/uni/predmeti/4-ita/promptathlon/artifacts/article.pdf)
+- Final master artifact: [master_article.pdf](artifacts/master_article.pdf)
+- Constituent source artifacts: [codex-eca.pdf](artifacts/codex-eca.pdf),
+  [Edge computing architectures.docx](<artifacts/Edge computing architectures.docx>),
+  [article.pdf](artifacts/article.pdf)
 
 ## Planned Video Outputs
 
