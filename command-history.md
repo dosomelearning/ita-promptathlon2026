@@ -984,3 +984,639 @@ chown -R raven:raven .
 ```sh
 git status --short --branch
 ```
+
+### Entry 162 - User Prompt
+
+```text
+next: extract all my propmpts into new file: eca-propmpts-codex.md
+```
+
+### Entry 163 - Executed Command
+
+```sh
+rg -n '^### Entry [0-9]+ - User Prompt|^```text$|^```$' command-history.md
+```
+
+### Entry 164 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 165 - Executed Command
+
+```sh
+python3 - <<'PY'
+# Extract User Prompt entries from command-history.md.
+PY
+```
+
+### Entry 166 - Executed Command
+
+```text
+apply_patch: add eca-propmpts-codex.md and log extraction commands
+```
+
+### Entry 167 - Executed Command
+
+```sh
+sed -n '1,220p' eca-propmpts-codex.md
+```
+
+### Entry 168 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 169 - User Prompt
+
+```text
+in this prompt file , only prompts that are directly related to the creation of the artivle should be. no other prompts for environemtn and similar tasks.
+```
+
+### Entry 170 - Executed Command
+
+```sh
+sed -n '1,220p' eca-propmpts-codex.md
+```
+
+### Entry 171 - Executed Command
+
+```sh
+tail -n 80 command-history.md
+```
+
+### Entry 172 - Executed Command
+
+```text
+apply_patch: narrow eca-propmpts-codex.md to article-related prompts and log commands
+```
+
+### Entry 173 - Executed Command
+
+```sh
+sed -n '1,180p' eca-propmpts-codex.md
+```
+
+### Entry 174 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+## Chronological Marker: pre-master-article
+
+This marker separates the command history before the main master article work.
+
+### Entry 175 - User Prompt
+
+```text
+lets mark command historry with a chronological marker, call it "pre-master-article" so we can distinguish one erra from another in history.
+```
+
+### Entry 176 - Executed Command
+
+```sh
+pwd
+```
+
+### Entry 177 - Executed Command
+
+```sh
+rg --files -g 'command-history.md' -g 'AGENTS.md'
+```
+
+### Entry 178 - Executed Command
+
+```sh
+sed -n '1,220p' command-history.md
+```
+
+### Entry 179 - Executed Command
+
+```sh
+tail -n 80 command-history.md
+```
+
+### Entry 180 - Executed Command
+
+```text
+apply_patch: insert pre-master-article chronological marker and append this turn's history entries
+```
+
+### Entry 181 - Executed Command
+
+```sh
+tail -n 120 command-history.md
+```
+
+### Entry 182 - User Prompt
+
+```text
+i've created new dir: artifacts and placed bucnh of files me and team produced.the master-article.pdf is the final product. it has been produced from three articles me any my team-mates have created, ech one created one article: codex-eca.pdf is min (you recognise it), edge computing ar hitectures.docx is another, and article.pdf is third. the master_article.pdf was produced as a result of combining all three listed docs. we will ltake master_article.pdf as basis for work in next phases of the project.
+```
+
+### Entry 183 - Executed Command
+
+```sh
+find artifacts -maxdepth 2 -type f | sort
+```
+
+### Entry 184 - Executed Command
+
+```sh
+pwd
+```
+
+### Entry 185 - Executed Command
+
+```text
+apply_patch: append artifacts baseline prompt and inspection commands to command-history.md
+```
+
+### Entry 186 - Executed Command
+
+```sh
+tail -n 80 command-history.md
+```
+
+### Entry 187 - User Prompt
+
+```text
+lets create a brief README.md for the project first. this project is about creating technical articles using AI only. the title for the article our team has is Edge Computing Architectures. team has 3 members. each member has used differen AI tool to create its contribution - an initial article on given title. you helped me creite mine. The rules were: do not touch any document manually, meaning: no copy paste of the content of any kind, no correcting of the content manually. the minimal unit of output is a document in any format that can be easily readable by humans and AI. that's how we got threeinitial doc. then we used Claude to combine all three into final master_article.pdf. now we are using codex to create a scenario we gonna use to generate video presentation, where AI will generate lifelike presenter giving a presentation about the topic. tell me whether you understand what we are doing.
+```
+
+### Entry 188 - Executed Command
+
+```sh
+rg --files -g 'README.md' -g 'command-history.md' -g 'AGENTS.md'
+```
+
+### Entry 189 - Executed Command
+
+```sh
+pwd
+```
+
+### Entry 190 - Executed Command
+
+```text
+apply_patch: append README request to command-history.md and add README.md with project overview and workflow
+```
+
+### Entry 191 - Executed Command
+
+```sh
+sed -n '1,200p' README.md
+```
+
+### Entry 192 - Executed Command
+
+```sh
+tail -n 80 command-history.md
+```
+
+### Entry 193 - User Prompt
+
+```text
+yes, and as you could see, we are meticolusly tracking the prompts we are using where prompt engineering is our only tool of engagement. put that in readme as well.
+```
+
+### Entry 194 - Executed Command
+
+```text
+apply_patch: update README.md to state prompt engineering is the only engagement method and prompts are tracked intentionally; append this prompt to command-history.md
+```
+
+### Entry 195 - Executed Command
+
+```sh
+sed -n '1,220p' README.md
+```
+
+### Entry 196 - User Prompt
+
+```text
+create a Strategy section in redme file. use what i gave you as an imput to extract the strategy and describe it riefly. then use strategy.docx from artifacts dir to obtain additional strategy relevant bits and put it also in the strtegy section.
+```
+
+### Entry 197 - Executed Command
+
+```sh
+ls artifacts
+```
+
+### Entry 198 - Executed Command
+
+```sh
+unzip -p artifacts/Strategy.docx word/document.xml | sed -n '1,220p'
+```
+
+### Entry 199 - Executed Command
+
+```text
+apply_patch: add Strategy section to README.md using user description and artifacts/Strategy.docx; append this turn's prompt and commands to command-history.md
+```
+
+### Entry 200 - Executed Command
+
+```sh
+sed -n '1,260p' README.md
+```
+
+### Entry 201 - User Prompt
+
+```text
+add section "produced artifacts" and list the artifact, listing the final one in the first place and all the constituents under it.
+```
+
+### Entry 202 - Executed Command
+
+```text
+apply_patch: add Produced Artifacts section to README.md and append this prompt to command-history.md
+```
+
+### Entry 203 - Executed Command
+
+```sh
+sed -n '1,280p' README.md
+```
+
+### Entry 204 - User Prompt
+
+```text
+ok. next section is "the goal" where we put the actual goal: creating 10 minute presentation that will explain the process of creatign teh master article from scratch. we wanna use free tools only. my understanding is that the choice of tools for free video generation is limited to 1-3 minutes output, so we might need to create 3 separate videos to satisfy aprox 10 minutes of content.
+```
+
+### Entry 205 - Executed Command
+
+```text
+apply_patch: add The Goal section to README.md and append this prompt to command-history.md
+```
+
+### Entry 206 - Executed Command
+
+```sh
+sed -n '1,320p' README.md
+```
+
+### Entry 207 - User Prompt
+
+```text
+name initial text body "Introduction"
+```
+
+### Entry 208 - Executed Command
+
+```text
+apply_patch: add Introduction heading to the initial README body and append this prompt to command-history.md
+```
+
+### Entry 209 - Executed Command
+
+```sh
+sed -n '1,80p' README.md
+```
+
+### Entry 210 - User Prompt
+
+```text
+name the last paragraph The stae of the project.
+```
+
+### Entry 211 - Executed Command
+
+```text
+apply_patch: add The State of the Project heading above the final README paragraph and append this prompt to command-history.md
+```
+
+### Entry 212 - Executed Command
+
+```sh
+tail -n 40 README.md
+```
+
+### Entry 213 - User Prompt
+
+```text
+check the entire readme for coherence, remove redundancies.
+```
+
+### Entry 214 - Executed Command
+
+```sh
+sed -n '1,260p' README.md
+```
+
+### Entry 215 - Executed Command
+
+```sh
+tail -n 40 command-history.md
+```
+
+### Entry 216 - Executed Command
+
+```text
+apply_patch: tighten README.md for coherence, remove repeated current-phase wording, compress produced artifacts, and append this turn's history entries
+```
+
+### Entry 217 - Executed Command
+
+```sh
+sed -n '1,260p' README.md
+```
+
+### Entry 218 - User Prompt
+
+```text
+make docuemtns in artifacts section clickable links so they can be launched.
+```
+
+### Entry 219 - Executed Command
+
+```text
+apply_patch: convert README artifact paths to clickable local file links and append this prompt to command-history.md
+```
+
+### Entry 220 - Executed Command
+
+```sh
+sed -n '12,80p' README.md
+```
+
+### Entry 221 - User Prompt
+
+```text
+now, given you know what we are doing, lets create scenarion.md where we create three logical sections that will be the basis for video generation. i have no experience generating video with AI, so relying on your expertise in instructing the AI generator. i remotely remembr that usually there is limited prompt length for that. three sections are for three separate vides that will be combiend into one. first video is about introducing to what we are doing - almost like abstracting the project readme.md, second vide is an actual presentation of the master_article - the content must be from the article. the last video is about what we've learned fro mthis project - prompts can be presented, etc. for all thre videos we need scenario for the video itself and the proper content basis. do you agree or would you add anything to it?
+```
+
+### Entry 222 - Executed Command
+
+```sh
+sed -n '1,260p' README.md
+```
+
+### Entry 223 - Executed Command
+
+```sh
+pdftotext artifacts/master_article.pdf -
+```
+
+### Entry 224 - Executed Command
+
+```sh
+tail -n 40 command-history.md
+```
+
+### Entry 225 - Executed Command
+
+```sh
+unzip -p artifacts/prompts.docx word/document.xml | sed -n '1,220p'
+```
+
+### Entry 226 - Executed Command
+
+```text
+apply_patch: add scenarion.md with three-video generation plan and append this turn's prompt and commands to command-history.md
+```
+
+### Entry 227 - Executed Command
+
+```sh
+sed -n '1,260p' scenarion.md
+```
+
+### Entry 228 - Executed Command
+
+```sh
+tail -n 60 command-history.md
+```
+
+### Entry 229 - User Prompt
+
+```text
+i think "scenarion" is a typo i might have made? lets be pragmatic and use proper spelling in our outputs....
+```
+
+### Entry 230 - Executed Command
+
+```sh
+mv scenarion.md scenario.md
+```
+
+### Entry 231 - Executed Command
+
+```text
+apply_patch: append scenario filename correction prompt and rename command to command-history.md
+```
+
+### Entry 232 - Executed Command
+
+```sh
+rg --files -g 'scenario.md' -g 'scenarion.md'
+```
+
+### Entry 233 - User Prompt
+
+```text
+add new section into scenarios where we will list possbble candidates for creating these videos. i expect you to list up to three relevant tools that you know could satisfy our constraints and we can use freely to generate videos.
+```
+
+### Entry 234 - Executed Command
+
+```text
+web.search_query: official pricing free AI video generator Runway free credits video official | official pricing free AI video generator Pika free plan official | official pricing free AI video generator invideo AI free plan official
+```
+
+### Entry 235 - Executed Command
+
+```text
+web.search_query: official free plan AI avatar video generator HeyGen pricing official | official free plan AI avatar video generator Canva AI video free official | official free plan AI video avatar CapCut free official
+```
+
+### Entry 236 - Executed Command
+
+```text
+apply_patch: add Possible Tool Candidates section to scenario.md using current official free-plan information and append this turn's history entries
+```
+
+### Entry 237 - Executed Command
+
+```sh
+tail -n 120 scenario.md
+```
+
+### Entry 238 - User Prompt
+
+```text
+i added new dir work and an emty marker file that i dropped into my s3 bucket. try accessing that file from this bucket: https://ita-promptathlon2026.s3.eu-central-1.amazonaws.com/empty-test-file.txt
+```
+
+### Entry 239 - Executed Command
+
+```text
+web.open: https://ita-promptathlon2026.s3.eu-central-1.amazonaws.com/empty-test-file.txt
+```
+
+### Entry 240 - Executed Command
+
+```sh
+curl -I https://ita-promptathlon2026.s3.eu-central-1.amazonaws.com/empty-test-file.txt
+```
+
+### Entry 241 - Executed Command
+
+```sh
+curl -I https://ita-promptathlon2026.s3.eu-central-1.amazonaws.com/empty-test-file.txt
+```
+
+### Entry 242 - Executed Command
+
+```text
+apply_patch: append S3 access check prompt and commands to command-history.md
+```
+
+### Entry 243 - User Prompt
+
+```text
+add new file at the project root: internal.md. we will documet here what we do but is not for the presentation. document the bucket we are using, document it is allowing GetObject publicly. we will place all generated videos there.
+```
+
+### Entry 244 - Executed Command
+
+```text
+apply_patch: add internal.md with S3 bucket operational notes and append this prompt to command-history.md
+```
+
+### Entry 245 - Executed Command
+
+```sh
+sed -n '1,200p' internal.md
+```
+
+### Entry 246 - User Prompt
+
+```text
+i have created the github repo, a public one, name: https://github.com/dosomelearning/ita-promptathlon2026.git. instrument this project so push works and we can push the local changes to GH.
+```
+
+### Entry 247 - Executed Command
+
+```sh
+git rev-parse --show-toplevel
+```
+
+### Entry 248 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 249 - Executed Command
+
+```sh
+git remote -v
+```
+
+### Entry 250 - Executed Command
+
+```sh
+git log --oneline --decorate -n 5
+```
+
+### Entry 251 - Executed Command
+
+```sh
+git remote add origin https://github.com/dosomelearning/ita-promptathlon2026.git
+```
+
+### Entry 252 - Executed Command
+
+```sh
+git remote add origin https://github.com/dosomelearning/ita-promptathlon2026.git
+```
+
+### Entry 253 - Executed Command
+
+```sh
+git remote -v
+```
+
+### Entry 254 - Executed Command
+
+```sh
+git ls-remote --heads origin
+```
+
+### Entry 255 - Executed Command
+
+```sh
+rg --files -g '.gitignore' -g '.git/info/exclude'
+```
+
+### Entry 256 - Executed Command
+
+```sh
+sed -n '1,200p' .gitignore
+```
+
+### Entry 257 - Executed Command
+
+```sh
+git ls-files .idea .codex
+```
+
+### Entry 258 - Executed Command
+
+```sh
+find .codex -maxdepth 2 -type f | sort
+```
+
+### Entry 259 - Executed Command
+
+```sh
+ls -ld .codex
+```
+
+### Entry 260 - Executed Command
+
+```sh
+sed -n '1,120p' .codex
+```
+
+### Entry 261 - Executed Command
+
+```sh
+du -sh artifacts source work
+```
+
+### Entry 262 - Executed Command
+
+```sh
+find artifacts source work -maxdepth 1 -type f -printf '%s %p\n' | sort -nr
+```
+
+### Entry 263 - Executed Command
+
+```sh
+git config user.name
+```
+
+### Entry 264 - Executed Command
+
+```sh
+git config user.email
+```
+
+### Entry 265 - Executed Command
+
+```text
+apply_patch: update .gitignore to ignore .codex and .idea/vcs.xml
+```
+
+### Entry 266 - Executed Command
+
+```text
+apply_patch: append GitHub remote setup prompt and command log to command-history.md
+```
