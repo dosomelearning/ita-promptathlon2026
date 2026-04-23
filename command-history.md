@@ -1620,3 +1620,57 @@ apply_patch: update .gitignore to ignore .codex and .idea/vcs.xml
 ```text
 apply_patch: append GitHub remote setup prompt and command log to command-history.md
 ```
+
+### Entry 267 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 268 - Executed Command
+
+```sh
+git add .gitignore README.md command-history.md eca-propmpts-codex.md internal.md scenario.md artifacts source work
+```
+
+### Entry 269 - Executed Command
+
+```sh
+git commit -m "Prepare repository for GitHub publishing" -m "- Add project README, scenario planning, internal notes, and prompt history updates" -m "- Add article source artifacts and working marker files needed for the project state" -m "- Configure ignore rules for local-only Codex and IDE files while keeping existing tracked project files intact"
+```
+
+### Entry 270 - Executed Command
+
+```sh
+git add .gitignore README.md command-history.md eca-propmpts-codex.md internal.md scenario.md artifacts source work
+```
+
+### Entry 271 - Executed Command
+
+```sh
+git commit -m "Prepare repository for GitHub publishing" -m "- Add project README, scenario planning, internal notes, and prompt history updates" -m "- Add article source artifacts and working marker files needed for the project state" -m "- Configure ignore rules for local-only Codex and IDE files while keeping existing tracked project files intact"
+```
+
+### Entry 272 - Executed Command
+
+```sh
+git status --short --branch
+```
+
+### Entry 273 - Executed Command
+
+```sh
+git push -u origin master
+```
+
+### Entry 274 - Executed Command
+
+```sh
+git push -u origin master
+```
+
+### Entry 275 - Executed Command
+
+```text
+apply_patch: append staging, commit, and push-attempt commands for GitHub publishing setup
+```
